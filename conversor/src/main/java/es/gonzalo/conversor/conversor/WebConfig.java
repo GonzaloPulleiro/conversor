@@ -13,7 +13,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(@SuppressWarnings("null") CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://tu-frontend.netlify.app") // Reemplázalo con tu URL de Netlify
+                        .allowedOrigins("https://gonzalopconversor.netlify.app/") // Reemplázalo con tu URL de Netlify
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedHeaders("*");
             }
